@@ -1,0 +1,130 @@
+.Header{
+    height: 57px;
+    border: 1px solid #dedede;
+    background-color: white;
+    /* margin-left: 0; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 1;
+}
+.left{
+    height: 24px;
+    width: 162px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink:0 ;
+}
+.middle{
+    height: 40px;
+    flex:1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width:470px;
+    margin-left: 75px;
+    margin-right: 35px;
+}
+.right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 182px;
+    justify-content: space-between;
+    margin-right: 25px;
+    margin-left: 28px;
+    flex-shrink:0 ;
+
+}
+#menu{
+    margin-left: 22px;
+}
+.yt-logo{
+    height: 24px;
+    width: 90px;
+}
+.search-bar{
+    height: 40px;
+    flex:1;
+    font-size: 16px;
+    border: 1px solid #CCCCCC;
+    border-radius: 2px;
+    padding: 15px;
+    width: 0;
+}
+.search-bar:active{
+    border: 1px solid blue;
+}
+.search{
+    flex: 1;
+    display: flex;
+    margin-right: -1px;
+}
+.search-logo{
+    height: 40px;
+    width: 64px;
+    margin-right: -1px;
+    background-color: #EFEFEF;
+    border: 1px solid #CCCCCC;
+    vertical-align: middle;
+}
+.search-logo, .mic,.creat,.apps,.notification{
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-logo .tooltip , .mic .tooltip, .creat .tooltip, .apps .tooltip , .notification .tooltip{
+    background-color: rgb(88, 87, 87);
+    color: white;
+    font-size: 12px;
+    padding: 8px 5px 8px 5px;
+    position: absolute;
+    bottom: -45px;
+    vertical-align: middle;
+    border-radius: 2px;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+    white-space: nowrap;
+}
+.search-logo:hover .tooltip, .mic:hover .tooltip , .creat.creat:hover .tooltip, .apps:hover .tooltip , .notification:hover .tooltip{
+    opacity: 1;
+}
+
+.mic{
+    height: 40px;
+    width: 40px;
+    border: none;
+    background-color: #f5f4f4;
+    border-radius: 40px;
+    margin-left: 5px;
+
+}
+.my-profile{
+    width: 32px;
+    border-radius: 32px;
+    vertical-align: middle;
+}
+.notification{
+    position: relative;
+}
+.notification-count{
+    background-color: rgb(189, 4, 4);
+    color: white;
+    font-size: 10px;
+    padding: 1px 5px 1px 5px;
+    border-radius: 9px;
+    position: absolute;
+    top: -2px;
+    right: -2px;
+}
+
