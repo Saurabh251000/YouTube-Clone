@@ -5,7 +5,10 @@
 
 --> **Header:** have search button input and voice , Create button , App button , Notification , Profile
 
---> All videos are Clickable.
+--> **Side-Bar:** have Home, Explore, Subcription, Originals, YouTube Music , Library Button with Hover property When we hover its background become grey.
+
+--> **Section:** It contain videos and channel logo . All Videos are Clickable.
+
 
 ## Language and Tools
 
@@ -14,6 +17,7 @@
 **Language Used:** HTML, CSS
 
 
+
 **WebSite Link-:** https://saurabh251000.github.io/YouTube-Clone/
 
-**Github Repo Link-:** 
+**Github Repo Link-:** https://github.com/Saurabh251000/YouTube-Clone
